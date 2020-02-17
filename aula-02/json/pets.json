@@ -1,0 +1,71 @@
+[
+    {
+        "nome": "Stark",
+        "raca": "SRD",
+        "peso": 13,
+        "idade": 10,
+        "cor": "Caramelo",
+        "porte": "Médio",
+        "sexo": "Macho",
+        "dono": "Ricardo",
+        "castrado": false,
+        "alergias": [
+            "Corante Vermelho",
+            "Frutos do Mar"
+        ],
+        "vacinas": [
+            {
+                "nome": "BC500",
+                "data": "10/12/2015"
+            },
+            {
+                "nome": "Antirrábica",
+                "data": "10/11/2015"
+            }
+        ]
+    },
+    {
+        "nome": "Charlie",
+        "raca": "Pastor Alemão",
+        "peso": 15,
+        "idade": 9,
+        "cor": "Caramelo",
+        "porte": "Grande",
+        "sexo": "Macho",
+        "dono": "Amber",
+        "castrado": true,
+        "alergias": [],
+        "vacinas": [
+            {
+                "nome": "Antirrábica",
+                "data": "10/11/2015"
+            },
+            {
+                "nome": "BC500",
+                "data": "10/12/2015"
+            }
+        ]
+    },
+    {
+        "nome": "Gaia",
+        "raca": "SRD",
+        "peso": 8,
+        "idade": 6,
+        "cor": "Preto",
+        "porte": "Pequeno",
+        "sexo": "Fêmea",
+        "dono": "Bruna",
+        "castrado": true,
+        "alergias": [],
+        "vacinas": [
+            {
+                "nome": "Antirrábica",
+                "data": "10/11/2015"
+            },
+            {
+                "nome": "BC500",
+                "data": "10/12/2015"
+            }
+        ]
+    }
+]
