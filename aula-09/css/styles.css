@@ -1,0 +1,53 @@
+body {
+  background: blueviolet;
+  color: #fff;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+}
+
+.pai {
+  margin: 20px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.pai div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  box-sizing: border-box; 
+  text-align: center;
+  background-color: purple;
+}
+  
+.relativo div:last-child {
+  left: 10px;
+  top: 10px;
+  background: chartreuse;
+  position: relative;
+}
+
+.absolute div:nth-child(2) {
+  background: red;
+  z-index: -1;
+  left: 10px;
+  top: 10px;
+  position: absolute;
+}
+
+.fixed div:first-child {
+  background: blue;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.sticky div {
+  position: sticky;
+  top: 0;
+  left: 50%;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css//styles.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <forms>
+        <div>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome" placeholder="Digite seu nome">
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email">
+        </div>
+        <div>
+            <input type="checkbox" name="accept" id="accept" value="true">
+            <label for="accept">Aceito os termos de uso</label>
+        </div>
+        <div>
+            <label>
+                <input type="radio" name="genero" id="genero" value="M"> Masculino
+            </label>
+            <label>
+                <input type="radio" name="genero" id="genero" value="F"> Feminino
+            </label>
+            <label>
+                <input type="radio" name="genero" id="genero" value="NB"> Não binário
+            </label>
+        </div>
+        <div>
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="20" rows="1"></textarea>
+        </div>
+        <div>
+            <label for="select">Local</label>
+            <select name="select" id="select">
+                <option value="BR">Brasil</option>
+                <option value="PT">Portugual</option>
+                <option value="AR">Argentina</option>
+            </select>
+        </div>
+        <div>
+            <label for="estado">Selecione o seu estado</label>
+            <select id="estado" name="estado">
+                <optgroup label="Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espirito Santo</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                    <option value="CE">Ceara</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="AL">Alagoas</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="hobbies">Hobbies</label>
+            <select id="hobbies" name="hobbies" multiple>
+                <option value="0">Dançar</option>
+                <option value="1">Programação</option>
+                <option value="2">Redes Neruais</option>
+            </select>
+        </div>
+        <div>
+            <label for="file">Arquivo</label>
+            <input type="file" name="file" id="name" accept=".jpg,.png">
+        </div>
+        <!-- <input type="submit" name="brn" value="Enviar"> -->
+        <button type="submit">Enviar</button>
+        </form>
+</body>
+
+</html>
